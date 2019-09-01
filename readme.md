@@ -49,11 +49,11 @@ Verifyemail::validate('example@domain.com')
 
 Here is a complete demo code
 ~~~php
+// can also be set email at runtime (optional), it is good to set in config file
+Verifyemail::setEmailFrom('support@domain.com');
+
+// email address to check
 $email = 'exampl@domain.com';
-
-// can also be set email at runtime (optional)
-Verifyemail::setEmailFrom($email);
-
 if (Verifyemail::checkEmail($email)) {
     echo 'email <' . $email . '> exist!';
 } elseif (Verifyemail::validate($email)) {
