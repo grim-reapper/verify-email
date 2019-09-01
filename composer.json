@@ -1,0 +1,41 @@
+{
+    "name": "imranali/verify-email",
+    "description": "Verify email if it exist or not",
+    "keywords": ["laravel","email verify","validate email"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "imran ali",
+            "email": "imran.ali125@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|~6.0.0",
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ImranAli\\VerifyEmail\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ImranAli\\VerifyEmail\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ImranAli\\VerifyEmail\\VerifyEmailServiceProvider"
+            ],
+            "aliases": {
+                "Verifyemail": "ImranAli\\VerifyEmail\\Facades\\verifyEmailFacade"
+            }
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4@dev"
+    }
+}
