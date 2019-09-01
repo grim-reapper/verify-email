@@ -1,8 +1,4 @@
 ##Verify Email 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/jeroennoten/Laravel-AdminLTE.svg?style=flat-square)](https://packagist.org/packages/jeroennoten/Laravel-AdminLTE)
-[![Quality Score](https://img.shields.io/scrutinizer/g/jeroennoten/Laravel-AdminLTE.svg?style=flat-square)](https://scrutinizer-ci.com/g/jeroennoten/Laravel-AdminLTE)
-[![StyleCI](https://styleci.io/repos/38200433/shield?branch=master)](https://styleci.io/repos/38200433)
-[![Total Downloads](https://img.shields.io/packagist/dt/jeroennoten/Laravel-AdminLTE.svg?style=flat-square)](https://packagist.org/packages/jeroennoten/Laravel-AdminLTE)
 This is a simple package that verify email if it is exist or not, This is useful for those who want to get real Email address from users. Get real email address while registering users, for app or newsletter. You can also check email is exist or not before sending email to users. It prevents from black listing your server, or hard bouncing .
 
 * Save you from hard bouncing
