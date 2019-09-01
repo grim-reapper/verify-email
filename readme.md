@@ -1,4 +1,4 @@
-##Verify Email
+## Verify Email
 
 This is a simple package that verify email if it is exist or not, This is useful for those who want to get real Email address from users. Get real email address while registering users, for app or newsletter. You can also check email is exist or not before sending email to users. It prevents from black listing your server, or hard bouncing .
 
