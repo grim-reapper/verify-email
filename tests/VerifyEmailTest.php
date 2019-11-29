@@ -19,15 +19,15 @@ class VerifyEmailTest extends TestCase
     /** @test */
     public function to_check_if_email_is_exist()
     {
-        verifyEmailFacade::setEmailFrom('imran@wtwm.com');
-        $status = verifyEmailFacade::checkEmail('imran.ali125@yahoo.com');
+        verifyEmailFacade::setEmailFrom('from@yahoo.com');
+        $status = verifyEmailFacade::checkEmail('emailtocheck@yahoo.com');
         $this->assertTrue($status);
     }
 
     /** @test */
     public function to_check_if_email_not_exist()
     {
-        verifyEmailFacade::setEmailFrom('imran@gmail.com');
+        verifyEmailFacade::setEmailFrom('from@yahoo.com');
         $status = verifyEmailFacade::checkEmail('test@test.com');
         $this->assertFalse($status);
     }
